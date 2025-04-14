@@ -3,6 +3,7 @@ name: iplscraper
 
 # Controls when the action will run.
 on:
+  workflow_dispatch:  # Trigger manually
   schedule:
     - cron:  '0 13 * * *'
 
