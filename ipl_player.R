@@ -1,4 +1,6 @@
 library(rvest)
+library(readr)
+library(tidyverse)
 url <- 'https://en.wikipedia.org/wiki/Indian_Premier_League'
 
 # wikitable
